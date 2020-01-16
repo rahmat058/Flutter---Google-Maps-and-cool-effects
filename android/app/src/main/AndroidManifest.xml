@@ -6,7 +6,6 @@
          additional functionality it is fine to subclass or reimplement
          FlutterApplication and put your custom class here. -->
 
-    <uses-permission android:name="android.permission.INTERNET" />
     <application
         android:name="io.flutter.app.FlutterApplication"
         android:label="google_map"
@@ -14,6 +13,7 @@
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyAbbD4N_pPzGPSPY_PyLy8GD5YND-hG_rQ"/>
+
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
